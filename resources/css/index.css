@@ -1,0 +1,30 @@
+
+h2 {
+  font-family: Georgia;
+  font-style: italic;
+  text-align: center;
+  color: black;
+}
+
+.main h1 {
+  font-size: 50px;
+  color: grey;
+  text-align: center;
+  font-family: fantasy;
+  margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.container a {
+  color: pink;
+  font-style: italic;
+  margin: 10px;
+  font-size: 20px;
+}
