@@ -1,3 +1,18 @@
+.container a {
+  color: #20B2AA;
+  font-style: italic;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
 
 h2 {
   font-family: Georgia;
@@ -5,6 +20,7 @@ h2 {
   text-align: center;
   color: #191970;
 }
+
 
 .main {
   background-image: url("../images/water.jpg");
@@ -27,17 +43,6 @@ h2 {
   margin-bottom: 5px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 25px;
-}
-
-.container a {
-  color: #20B2AA;
-  font-style: italic;
-  margin: 10px;
-  font-size: 20px;
+.highlight {
+  background-color: yellow;
 }
