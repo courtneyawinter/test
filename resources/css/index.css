@@ -3,26 +3,25 @@ h2 {
   font-family: Georgia;
   font-style: italic;
   text-align: center;
-  color: black;
+  color: #191970;
 }
 
 .main {
   background-image: url("../images/water.jpg");
   color: white;
   background-position: center;
-  height: 50%;
+  height: 100%;
   width: auto;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 50%;
+  opacity: 0.8;
   padding: 20px;
   margin-top: 20px;
 }
 
-
 .main h1 {
   font-size: 50px;
-  color: grey;
+  color: white;
   text-align: center;
   font-family: fantasy;
   margin-bottom: 5px;
@@ -37,7 +36,7 @@ h2 {
 }
 
 .container a {
-  color: pink;
+  color: #20B2AA;
   font-style: italic;
   margin: 10px;
   font-size: 20px;
