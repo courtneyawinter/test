@@ -6,6 +6,20 @@ h2 {
   color: black;
 }
 
+.main {
+  background-image: url("../images/water.jpg");
+  color: white;
+  background-position: center;
+  height: 50%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50%;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
 .main h1 {
   font-size: 50px;
   color: grey;
