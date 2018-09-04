@@ -1,5 +1,5 @@
 .container a {
-  color: #20B2AA;
+  color: #fa8072;
   font-style: italic;
   margin: 10px;
   font-size: 20px;
@@ -7,10 +7,9 @@
 
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 25px;
+  justify-content: flex-end;
+  margin-top: 15px;
+  padding: 10px;
 }
 
 h1 {
@@ -18,15 +17,8 @@ h1 {
   font-size: 35px;
 }
 
-h2 {
-  font-family: Georgia;
-  font-style: italic;
-  text-align: center;
-  color: #191970;
-}
-
 .main {
-  background-image: url("../images/water.jpg");
+  background-image: url("../images/airplane.jpg");
   color: white;
   background-position: center;
   height: 100%;
@@ -34,16 +26,24 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
-  padding: 20px;
+  padding: 100px;
   margin-top: 20px;
 }
 
 .main h1 {
-  font-size: 50px;
-  color: white;
+  font-size: 65px;
+  color: black;
   text-align: center;
-  font-family: fantasy;
-  margin-bottom: 5px;
+  font-family: Garamond;
+  margin-top: 100px;
+}
+
+.main h2 {
+  font-size: 30px;
+  font-family: Georgia;
+  text-align: center;
+  color: black;
+  font-style: italic;
 }
 
 .body1 {
