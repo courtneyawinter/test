@@ -1,15 +1,16 @@
-.container a {
-  color: #fa8072;
-  font-style: italic;
-  margin: 10px;
-  font-size: 20px;
-}
 
 .container {
   display: flex;
   justify-content: flex-end;
   margin-top: 15px;
   padding: 10px;
+}
+
+.container a {
+  color: #fa8072;
+  font-style: italic;
+  margin: 10px;
+  font-size: 20px;
 }
 
 h1 {
