@@ -58,6 +58,8 @@ h1 {
   height: 300px;
   border: 5px solid black;
   border-radius: 100%;
+  position: relative;
+  right: 340px;
 }
 
 .highlight {
