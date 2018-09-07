@@ -1,22 +1,49 @@
+/* Universal */
 
-.container {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 15px;
-  padding: 10px;
-}
-
-.container a {
-  color: #fa8072;
-  font-style: italic;
-  margin: 10px;
-  font-size: 20px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   color: black;
   font-size: 35px;
+  font-family: Garamond;
 }
+
+p {
+  font-family: Georgia;
+  font-size: 18px;
+  padding: 5px;
+}
+
+/* Navigation Bar */
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%;
+  height: 47px;
+  padding-top: 20px;
+  border-bottom: 3px solid black;
+}
+
+.container a {
+  color: #f08080;
+  font-style: italic;
+  padding-right: 35px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: black;
+}
+
+/* Homepage Hero */
 
 .main {
   background-image: url("../images/airplane.jpg");
@@ -27,16 +54,15 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 100%;
-  padding: 100px;
-  margin-top: 20px;
+  padding: 190px;
+  margin-top: 70px;
 }
 
 .main h1 {
   font-size: 65px;
   color: black;
   text-align: center;
-  font-family: Garamond;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .main h2 {
@@ -45,12 +71,23 @@ h1 {
   text-align: center;
   color: black;
   font-style: italic;
+  margin-top: 45px;
 }
+
+/* About Me Section */
 
 .body1 {
   background-color: #fdf5e6;
-  text-align: center;
   padding-top: 20px;
+}
+
+.body1 h1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.body1 p {
+  margin-left: 30px;
 }
 
 .body1 img {
@@ -59,9 +96,5 @@ h1 {
   border: 5px solid black;
   border-radius: 100%;
   position: relative;
-    right: 340px;
-}
-
-.highlight {
-  background-color: yellow;
+    left: 500px;
 }
