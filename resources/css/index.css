@@ -17,9 +17,9 @@ p {
   padding: 5px;
 }
 
-/* Navigation Bar */
+/* Primary Menu */
 
-.container {
+nav {
   display: flex;
   justify-content: flex-end;
   position: fixed;
@@ -31,7 +31,7 @@ p {
   border-bottom: 3px solid black;
 }
 
-.container a {
+nav a {
   color: #f08080;
   font-style: italic;
   padding-right: 35px;
@@ -39,7 +39,8 @@ p {
   text-decoration: none;
 }
 
-.container a:hover {
+nav,
+a:hover {
   color: black;
 }
 
