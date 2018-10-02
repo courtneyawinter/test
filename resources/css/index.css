@@ -29,7 +29,9 @@ nav {
   height: 47px;
   padding-top: 20px;
   border-bottom: 3px solid black;
+  z-index: 2;
 }
+
 
 nav a {
   color: #f08080;
@@ -66,7 +68,7 @@ a:hover {
   margin-top: 50px;
 }
 
-.main h2 {
+ .main h2 {
   font-size: 30px;
   font-family: Georgia;
   text-align: center;
@@ -79,7 +81,8 @@ a:hover {
 
 .body1 {
   background-color: #fdf5e6;
-  padding-top: 20px;
+  padding: 20px;
+  height: 100%;
 }
 
 .body1 h1 {
@@ -92,10 +95,11 @@ a:hover {
 }
 
 .body1 img {
-  width: 300px;
-  height: 300px;
+  width: 200px;
   border: 5px solid black;
   border-radius: 100%;
-  position: relative;
-    left: 500px;
+  position: absolute;
+    left: 1010px;
+    top: 750px;
+  z-index: 1;
 }
