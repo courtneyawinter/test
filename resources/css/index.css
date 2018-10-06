@@ -82,14 +82,16 @@ a:hover {
 
 .body1 {
   background-color: #EAD7C6;
-  padding: 20px;
+  padding-top: 50px;
   height: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .body1 h1 {
   padding: 20px;
   text-align: center;
+  margin-left: 100px;
+  width: 60%;
 }
 
 .body1 p {
@@ -99,11 +101,11 @@ a:hover {
 }
 
 .body1 img {
-  width: 240px;
+  width: 300px;
   border: 5px solid black;
   border-radius: 100%;
   position: absolute;
-    left: 950px;
+    left: 910px;
     top: 750px;
   z-index: 1;
   display: inline;
