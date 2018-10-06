@@ -110,3 +110,25 @@ a:hover {
   z-index: 1;
   display: inline;
 }
+
+/* Footer */
+.footer {
+  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer p {
+  color: #c6c6c6;
+  font-size: 15px;
+  margin-left: 15px;
+  padding: 13px;
+}
+
+.footer a {
+  color: #c6c6c6;
+}
+
+.footer a:hover {
+  color: #6F555A;
+}
