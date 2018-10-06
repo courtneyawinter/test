@@ -92,6 +92,8 @@ a:hover {
 
 .body1 p {
   margin-left: 30px;
+  width: 47%;
+  line-height: 28px;
 }
 
 .body1 img {
@@ -102,4 +104,5 @@ a:hover {
     left: 1010px;
     top: 750px;
   z-index: 1;
+  display: inline;
 }
