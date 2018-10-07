@@ -120,6 +120,7 @@ a:hover {
   background-color: white;
   display: flex;
   justify-content: center;
+  margin-right: 17px;
 }
 
 .item1,
