@@ -127,11 +127,21 @@ a:hover {
 .item3,
 .item4 {
   border: 3px solid black;
-  padding: 75px;
   margin: 20px;
+  padding: 170px 70px;
+
 }
 
-
+.item1 {
+  background-image: url("../images/spain.jpg");
+  color: white;
+  background-position: center;
+  height: 100%;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 170px 90px;
+}
 
 
 
