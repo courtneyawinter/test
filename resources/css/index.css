@@ -119,7 +119,6 @@ a:hover {
   background-color: white;
   display: flex;
   justify-content: center;
-  margin-right: 17px;
 }
 
 .item1,
@@ -139,15 +138,28 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: .4px;
-  padding: 170px 90px;
+  width: 100%;
+  position: relative;
+}
+
+.item1:hover {
+  cursor: hand;
+  cursor: pointer;
+  opacity: .9;
 }
 
 .item1 a {
   text-decoration: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+  opacity: 0;
+  filter: alpha(opacity=0);
 }
-
-
-
 
 
 /* Footer */
