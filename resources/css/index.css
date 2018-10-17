@@ -136,12 +136,17 @@ a:hover {
   background-image: url("../images/spain.jpg");
   color: white;
   background-position: center;
-  height: 100%;
-  width: auto;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: .4px;
   padding: 170px 90px;
 }
+
+.item1 a {
+  text-decoration: none;
+}
+
+
 
 
 
