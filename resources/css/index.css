@@ -115,8 +115,11 @@ a:hover {
 /* Homepage FlexBox */
 
 .container1 {
-  padding: 50px 20px;
-  background-color: white;
+  padding: 0px 20px;
+  background-color: #363437;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
 }
@@ -147,10 +150,10 @@ a:hover {
 .item2,
 .item3,
 .item4 {
-  border: 3px solid black;
+  border: 5px solid  #6F555A;
   margin: 20px;
   padding: 170px 70px;
-  color: white;
+  background-color: white;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -164,7 +167,7 @@ a:hover {
 .item4:hover {
   cursor: hand;
   cursor: pointer;
-  opacity: .9;
+  opacity: .4;
 }
 
 .item1 a,
