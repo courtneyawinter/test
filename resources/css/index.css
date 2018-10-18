@@ -117,9 +117,6 @@ a:hover {
 .container1 {
   padding: 0px 20px;
   background-color: #363437;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
 }
@@ -150,7 +147,7 @@ a:hover {
 .item2,
 .item3,
 .item4 {
-  border: 5px solid  #6F555A;
+  border: 5px solid #6F555A;
   margin: 20px;
   padding: 170px 70px;
   background-color: white;
