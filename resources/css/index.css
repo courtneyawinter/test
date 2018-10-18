@@ -140,7 +140,7 @@ a:hover {
 }
 
 .item4 {
-  background-image: url("../images/thailand.jpg")
+  background-image: url("../images/thailand5.jpg")
 }
 
 .item1,
@@ -154,7 +154,6 @@ a:hover {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: .4px;
   width: 100%;
   position: relative;
 }
