@@ -80,7 +80,7 @@ a:hover {
   margin-top: 45px;
 }
 
-/* About Me Section */
+/* Homepage About Me Section */
 
 .body1 {
   background-color: #EAD7C6;
@@ -112,10 +112,26 @@ a:hover {
   z-index: 1;
 }
 
+/* Homepage Explore Section */
+.explorehero {
+  text-align: right;
+  padding: 50px 40px 0px 40px;
+  background-color: #363437;
+}
+
+.explorehero h1 {
+  color: #EAD7C6;
+}
+
+.explorehero hr {
+  margin-top: 20px;
+  border-color:#EAD7C6;
+}
+
 /* Homepage FlexBox */
 
 .container1 {
-  padding: 0px 20px;
+  padding: 0px 20px 30px 20px;
   background-color: #363437;
   display: flex;
   justify-content: center;
@@ -182,9 +198,6 @@ a:hover {
   opacity: 0;
   filter: alpha(opacity=0);
 }
-
-
-
 
 /* Footer */
 .footer {
